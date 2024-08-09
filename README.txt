@@ -11,4 +11,4 @@
 
 ---------------------------
 Foi o primeiro código que "eu fiz". Claro, utilizei ferramentas como o ChatGPT, mas somente para entender funções como except, break, try, input, print, if, else e a biblioteca time. E claro, principalmente as indentação. Sofri bastante para entender a indentação.
-Tentei explicar como fiz cada coisa e me embolei bastante, mas acredito que entendi cada linha desse código.
+Tentei explicar em um momento como fiz cada coisa e me embolei bastante, mas acredito que entendi cada linha desse código.
