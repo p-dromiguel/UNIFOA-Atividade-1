@@ -13,7 +13,7 @@ while True:  #Como na própria tradução, enquanto verdade, e o usuário fizer 
  except ValueError: #com exceção do erro de o valor por acaso não ter sido um número inteiro.
   print(f"Ou você não me deu sua idade em número ou foi em algarismo romano! Fale sua idade em um número inteiro!")
 time.sleep(1)
-print (f"É uma ótima idade!{idade} aninhos só!")
+print (f"É uma ótima idade! {idade} aninhos só!")
 resposta = input("Você gostaria de saber quantos anos faltam para você completar 100? Sim ou não?").strip().lower() #Testando o aplicativo, verifiquei alguns erros colocando espaço antes. Aparentemente, strip corrigiu essa função. 
 time.sleep(1)
 if resposta.lower() == "sim": #caso a resposta seja sim, 
