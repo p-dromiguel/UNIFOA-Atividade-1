@@ -14,21 +14,22 @@ while True:  #Como na própria tradução, enquanto verdade, e o usuário fizer 
   print(f"Ou você não me deu sua idade em número ou foi em algarismo romano! Fale sua idade em um número inteiro!")
 time.sleep(1)
 print (f"É uma ótima idade!{idade} aninhos só!")
-resposta = input("Você gostaria de saber quantos anos faltam para você completar 100? Sim ou não?")
+resposta = input("Você gostaria de saber quantos anos faltam para você completar 100? Sim ou não?").strip().lower() #Testando o aplicativo, verifiquei alguns erros colocando espaço antes. Aparentemente, strip corrigiu essa função. 
 time.sleep(1)
 if resposta.lower() == "sim": #caso a resposta seja sim, 
-    print (f"Vamos lá!")
-else:
-    print (f"Beleza então. Caso mude de ideia, inicie novamente o programa. Em 5 segundos, ele será encerrado!")
+    print (f"Vamos lá!") #seguimos em frente.
+else: #se não...
+    print (f"Beleza então. Caso mude de ideia, inicie novamente o programa. Em 5 segundos, ele será encerrado!") #ele é encerrado.
     time.sleep(5)
     sys.exit() #Programa descoberto enquanto estava fazendo outra atividade. Esse sys que foi importado serve para essa função.
+
 time.sleep(2)
-anos_faltantes = 100 - idade
-if idade <= 100:
+anos_faltantes = 100 - idade #conta básica. 
+if idade <= 100: #sinal de menor ou igual que 100
  print (f"Faltam apenas {anos_faltantes} para você completar 100 anos!")
-else:
+else: #do contrário...
  print (f"Você é bem velho, ein! Ou já passou da idade ou já tem 100 anos!")
  
- print(f"O programa será encerrado em 5 segundos. Espero que você tenha ficado feliz com o tempo que tem restante. Ou não!")
- time.sleep(5)
- sys.exit()
+print(f"O programa será encerrado em 5 segundos. Espero que você tenha ficado feliz com o tempo que tem restante. Ou não!")
+time.sleep(5) 
+sys.exit() #sys usado pela ultima vez.
