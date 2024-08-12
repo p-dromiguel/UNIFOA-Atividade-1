@@ -6,7 +6,7 @@
 3.Pressione as teclas Windows + R simultaneamente;
 4.Digite cmd;
 5.Será necessário que você localize em qual diretório colocou o programa. Ex.:caso tenha sido na desktop, digite cd desktop para que o Prompt de Comando esteja na mesma "área" que você;
-6.Copie o seguinte texto "python quantos anos até os cem anos.py" e cole no Prompt de Comando;
+6.Copie o seguinte texto "python 100anos.py" e cole no Prompt de Comando;
 7.Siga as orientações do próprio algoritmo.
 
 ---------------------------
