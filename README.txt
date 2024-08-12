@@ -6,7 +6,7 @@
 3.Pressione as teclas Windows + R simultaneamente;
 4.Digite cmd;
 5.Será necessário que você localize em qual diretório colocou o programa. Ex.:caso tenha sido na desktop, digite "cd desktop", para que o Prompt de Comando esteja na mesma "área" que você;
-5.1.Um adendo é que, às vezes, quando você colocar "cd desktop", dará "O sistema não pode encontrar o caminho especificado". Recomendo que você vá até o Explorador de Arquivos (os das pastas), vá aonde colocou o arquivo Python, copie o caminho de navegação e cole, seguindo o seguinte modelo: "cd %USERPROFILE%\OneDrive\Desktop". 
+5.1.Um adendo é que, às vezes, quando você colocar "cd desktop", dará "O sistema não pode encontrar o caminho especificado". Recomendo que você vá até o Explorador de Arquivos (os das pastas), vá aonde colocou o arquivo Python, copie o caminho de navegação e cole, seguindo o seguinte modelo como exemplo: "cd %USERPROFILE%\OneDrive\Desktop". 
 6.Copie o seguinte texto: "python 100anos.py", e cole no Prompt de Comando;
 7.Siga as orientações do próprio algoritmo.
 
